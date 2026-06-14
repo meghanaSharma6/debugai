@@ -90,7 +90,7 @@ export default function App() {
     setReport(null);
 
     try {
-      const response = await fetch("https://debugai-6uwo.onrender.com/api/debug", {
+      const response = await fetch("/api/debug", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
