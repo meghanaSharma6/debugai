@@ -1,0 +1,6 @@
+{
+  "name": "DebugAI",
+  "description": "An AI-powered developer debugging tool that explains source code errors and generates clean, copyable, and downloadable corrected code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
