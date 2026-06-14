@@ -82,7 +82,7 @@ export default function App() {
     return () => clearInterval(interval);
   }, [isLoading]);
 
-  // API Call - Connect to server /api/debug
+  // API Call - Connect to server https://debugai-6uwo.onrender.com/api/debug
   const handleAnalyze = async () => {
     if (!code.trim()) return;
     setIsLoading(true);
@@ -90,7 +90,7 @@ export default function App() {
     setReport(null);
 
     try {
-      const response = await fetch("/api/debug", {
+      const response = await fetch("https://debugai-6uwo.onrender.com/api/debug", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
