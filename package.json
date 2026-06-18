@@ -1,8 +1,20 @@
 {
   "name": "react-example",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "<div align=\"center\">\r <img width=\"1200\" height=\"475\" alt=\"GHBanner\" src=\"https://ai.google.dev/static/site-assets/images/share-ais-513315318.png\" />\r </div>",
+  "homepage": "https://github.com/meghanaSharma6/debugai#readme",
+  "bugs": {
+    "url": "https://github.com/meghanaSharma6/debugai/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meghanaSharma6/debugai.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "tsx server.ts",
     "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
